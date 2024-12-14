@@ -221,7 +221,10 @@
 									"\r",
 									"// for (var p in details) {\r",
 									"//     console.log(p + \": \" + details[p])\r",
-									"// }"
+									"// }\r",
+									"\r",
+									"\r",
+									"//changes on main collection on Put Pet request"
 								],
 								"type": "text/javascript",
 								"packages": {}
