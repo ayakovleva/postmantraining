@@ -57,7 +57,7 @@
 									"\r",
 									"pm.sendRequest(getFindByStatusRequest, function(error, findByStatusResponse) {\r",
 									"    pm.test(\"Get Find By Status requets has OK status\", function() {\r",
-									"        pm.expect(findByStatusResponse.status).to.eql(\"CREATED\");\r",
+									"        pm.expect(findByStatusResponse.status).to.eql(\"OK\");\r",
 									"    });\r",
 									"});\r",
 									"\r",
