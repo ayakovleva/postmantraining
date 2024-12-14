@@ -14,6 +14,7 @@
 						{
 							"listen": "test",
 							"script": {
+								"id": "e156a236-c173-4d7a-a217-b3bf6a7f8b25",
 								"exec": [
 									"// Парсим ответ как текст и добавляем кавычки\r",
 									"let response = pm.response.text().replace(/([^\"\\w-])([-0-9.]{8,100})([^\"\\w-])/g, '$1\\\"$2\\\"$3');\r",
@@ -56,7 +57,7 @@
 									"\r",
 									"pm.sendRequest(getFindByStatusRequest, function(error, findByStatusResponse) {\r",
 									"    pm.test(\"Get Find By Status requets has OK status\", function() {\r",
-									"        pm.expect(findByStatusResponse.status).to.eql(\"OK\");\r",
+									"        pm.expect(findByStatusResponse.status).to.eql(\"CREATED\");\r",
 									"    });\r",
 									"});\r",
 									"\r",
@@ -67,13 +68,13 @@
 									"console.log(\"Post-response script from request\")"
 								],
 								"type": "text/javascript",
-								"packages": {},
-								"id": "e156a236-c173-4d7a-a217-b3bf6a7f8b25"
+								"packages": {}
 							}
 						},
 						{
 							"listen": "prerequest",
 							"script": {
+								"id": "8b190512-8572-4faa-89a0-269a1c4df672",
 								"exec": [
 									"let petName = pm.collectionVariables.replaceIn(\"{{$randomFirstName}}\");\r",
 									"console.log(petName);\r",
@@ -83,8 +84,7 @@
 									"console.log(\"Pre-request script from request\")"
 								],
 								"type": "text/javascript",
-								"packages": {},
-								"id": "8b190512-8572-4faa-89a0-269a1c4df672"
+								"packages": {}
 							}
 						}
 					],
