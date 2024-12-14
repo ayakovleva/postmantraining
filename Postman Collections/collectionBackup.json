@@ -65,7 +65,9 @@
 									"    pm.expect(pm.response.text()).to.include(pm.collectionVariables.get(\"petNameColl\"));\r",
 									"});\r",
 									"\r",
-									"console.log(\"Post-response script from request\")"
+									"console.log(\"Post-response script from request\")\r",
+									"\r",
+									"//fork"
 								],
 								"type": "text/javascript",
 								"packages": {}
