@@ -75,7 +75,11 @@
 									"//one more attempt\r",
 									"\r",
 									"\r",
-									"//added changes in Main and going to Pull them to fork"
+									"//added changes in Main and going to Pull them to fork\r",
+									"\r",
+									"\r",
+									"//added changes to main in order co create Merge Conflict\r",
+									"//bla bla bla"
 								],
 								"type": "text/javascript",
 								"packages": {}
