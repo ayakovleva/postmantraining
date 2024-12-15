@@ -78,8 +78,7 @@
 									"//added changes in Main and going to Pull them to fork\r",
 									"\r",
 									"\r",
-									"//added changes to main in order co create Merge Conflict\r",
-									"//bla bla bla"
+									"//added another changes to Fork in order to cause Merge Conflict"
 								],
 								"type": "text/javascript",
 								"packages": {}
