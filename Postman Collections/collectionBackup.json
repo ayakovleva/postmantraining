@@ -78,7 +78,10 @@
 									"//added changes in Main and going to Pull them to fork\r",
 									"\r",
 									"\r",
-									"//added another changes to Fork in order to cause Merge Conflict"
+									"//added another changes to Fork in order to cause Merge Conflict\r",
+									"\r",
+									"\r",
+									"//last changes added to the Fork in order to delete fork branch after merge"
 								],
 								"type": "text/javascript",
 								"packages": {}
